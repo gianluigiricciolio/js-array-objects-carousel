@@ -28,6 +28,13 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: block;
+}
+
+.content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .item.active {
@@ -49,6 +56,10 @@
 
 .next {
     bottom: 0;
+}
+
+.prev {
+    top: 0;
 }
 
 .prev::after {
